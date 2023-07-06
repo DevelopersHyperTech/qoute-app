@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Raleway:wght@500&family=Sacramento&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--text-color);
+  transition: background-color 0.3s ease;
+  background-color: var(--primary-color);
+}
+:root {
+  --primary-color: #dde6ed;
+  --text-color: #ffffff;
+  --hover-color: #f76c6c;
+  --secondary-color-3: #ffd166;
+}
+body.active {
+  background-color: var(--hover-color);
+}

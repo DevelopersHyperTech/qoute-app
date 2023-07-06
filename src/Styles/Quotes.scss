@@ -1,0 +1,64 @@
+#quote-box {
+  background-color: var(--secondary-color-3);
+  height: 80%;
+  max-width: 800px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 10px 10px 10px #ffd166b2;
+  border-radius: 30px;
+
+  #author {
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+    color: var(--hover-color);
+  }
+}
+
+#fade-out {
+  opacity: 0.5;
+  color: #3a7bd5;
+}
+#new-quote {
+  padding: 10px 20px;
+  background-color: var(--hover-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+
+  &:hover {
+    background-color: #3a7bd5;
+  }
+}
+
+// #new-quote:hover {
+//   background-color: #3a7bd5;
+// }
+
+#tweet-quote {
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  right: 5px;
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: var(--hover-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.6s ease;
+
+  cursor: pointer;
+
+  a {
+    color: #ffff;
+  }
+  &:hover {
+    background-color: #3a7bd5;
+  }
+}
